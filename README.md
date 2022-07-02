@@ -19,4 +19,4 @@ Le forum https://forum.pluxml.org est ouvert à tous et vous permettra d'y trouv
  
  Cette version est compatible à partir de PHP5 , elle est elagué du script phpMailer et désactive la compression gzip et l'urlrewriting si l'hebergement est un serveur en free.fr .
  
- Sur free, ne tentez pas de faire usage de l'urlrewriting ni , cela inclus par exemple, le plugin MyBetterUrl . En cas de tentative, votre hebergement deviendra inaccessible en vous affichant une page erreur 500.
+ Sur free, ne tentez pas de faire usage de l'urlrewriting, cela inclus par exemple, le plugin MyBetterUrl . En cas de tentative, votre hebergement deviendra inaccessible en vous affichant une page erreur 500.
