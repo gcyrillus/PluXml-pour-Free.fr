@@ -1,5 +1,6 @@
 # PluXml-pour-Free.fr
-version adaptée et modifiée pour une installation à la racine d'un hebergement free.fr en PHP5
+version adaptée et modifiée pour une installation à la racine d'un hebergement free.fr ou a minima en PHP5.
+<b>note</b> incompatible avec les hebergement de <b>chez.com</b> du à de trop nombreuses restriction des fonctions php5.
 
 La réecriture d'url est désactivée si l'hebergement est free.fr et seul l'option sendmail est disponible afin que cette archive qui fonctionne avec php5 soit fonctionnelle.
 
