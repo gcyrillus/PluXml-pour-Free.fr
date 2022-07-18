@@ -5,7 +5,8 @@ version adaptée et modifiée pour une installation à la racine d'un hebergemen
 
 La réecriture d'url est désactivée si l'hebergement est free.fr et seul l'option sendmail est disponible afin que cette archive qui fonctionne avec php5 soit fonctionnelle.
 
-L'installation se fait en deux étapes:
+L'installation se fait en trois étapes:
+<sub><sup>Les deux étapes les plus longues sont d'envoyé cette unique fichier sur votre hebergement , puis une fois le script lancé , de remplir les 5 champs du formulaire de configuration de votre Noveau CMS).</sup></sub>
 
 1. uploader à la racine de votre hebergement (ou dans le repertoire de votre choix) le fichier **freePluXmlInstall.php** , Ce script contient aussi  l'archive de la  version 5.8.7 de PluXml (sans PHPMailer fait une archive de 714ko environs) .
 2. taper ensuite dans votre navigateur l'url de votre site free + freePluXmlInstall.php , ce qui donne :  `http://monsite.free.fr/freePluXmlInstall.php` où *monsite* est à remplacer par le nom du votre.Si vous avez placé ces fichiers dans un sous repertoire, indiqué le dans la barre d'adresse : `http://monsite.free.fr/monsousDossier/freePluXmlInstall.php` .
