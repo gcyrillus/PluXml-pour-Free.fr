@@ -11,9 +11,11 @@ $zipcontent ='data:application/x-zip-compressed;base64,UEsDBAoAAAAAAAOt21Q2Ev4NJ
     //decode the image and finally save it
     $data = base64_decode($base64);
     //take care of your file extension
-    $file = 'pluxml.zip';
+	$file = fopen('pluxml.zip', 'w') or die('impossible d\'ouvrir le fichier: '.'pluxml.zip'); // on crée le fichier en l'ouvrant 
+ 
     //make sure you are the owner and have the rights to write content
-    file_put_contents($file, $data);
+	fwrite($file, $data);// on ecrit et sauvegarde
+	fclose($file);// on libere le nouveau fichier et la memoire
 
     # Préparation et à l'installation
 	if (version_compare(phpversion(), '5', '<') ) {	
@@ -82,6 +84,4 @@ else {
 		echo 'Le deploiement de l\'archive à echoué.';
 	}
 }
-
-
 ?>
